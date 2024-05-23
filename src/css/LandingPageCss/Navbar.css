@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar {
+  height: 96px;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-nav{
+    margin-right: 80px;
+}
+.navbar-brand,
+.nav-link,
+.btn-active {
+    color: #78350F;
+}
+.navbar-brand{
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.nav-link:hover{
+    
+    border-radius: 8px;
+    background-color: #78350F;
+    color: white !important;
+}
+.nav-item{
+    margin-left: 8px;
+    padding-left: 4px;
+}
+.btn-active {
+    border: 2px solid #78350F;
+}
+
