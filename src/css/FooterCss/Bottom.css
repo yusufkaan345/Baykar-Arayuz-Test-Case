@@ -1,0 +1,17 @@
+#bottom-container{
+    background-color: #0F172A;
+    width: 1280px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+   margin-left: 15px;
+   color: white;
+   text-decoration: none;
+}
+.copy-rights{
+    color: white;
+}

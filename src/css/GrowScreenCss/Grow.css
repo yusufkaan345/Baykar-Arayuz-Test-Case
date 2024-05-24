@@ -1,0 +1,57 @@
+#container{
+    height: 996px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fffcee;  
+}
+.bg-grow-image{
+    position: absolute; 
+    width: 100%;
+    height: 100%; 
+    background-image: url('../../src/GrowScreenImages/Waves.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    z-index: 1; 
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grow-section-1{
+    width: 1280px;
+    height: 152px;
+    margin-bottom: 80px;
+}
+
+.grow-section-2{
+    width: 1280px;
+    height: 556px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+.list-group .btn {
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group .btn:first-child {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.list-group .btn:not(:first-child):hover {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.5;
+}
